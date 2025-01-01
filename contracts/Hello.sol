@@ -4,7 +4,7 @@ pragma solidity ^0.8.26; // this line specifies the solidity compiler for the co
 contract Hello {
     //variables
     string public welcome = "Hello World"; // just represents text
-    address Myaddress = 0x12345678901234567890123456; // used to store addresses to wallets
+    address Myaddress = 0x32Be343B94f860124dC4fEe278FDCBD38C102D88; // used to store addresses to wallets
     bool isReady = true; //boolean true or false values
     uint8 max_supply = 10; //integers max:255
     uint16 max_num = 100; //integer max: 65535

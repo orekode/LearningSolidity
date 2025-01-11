@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
+import "hardhat/console.sol";
+
 contract Calculator {
     uint256 result = 0;
 
@@ -17,6 +19,7 @@ contract Calculator {
     }
 
     function get() public view returns (uint256) {
+        console.log(result);
         return result;
     }
 }

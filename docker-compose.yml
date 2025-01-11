@@ -1,0 +1,10 @@
+services:
+  solidity:
+    image: node:22
+    ports:
+      - 8545:8545
+    working_dir: /app
+    volumes: 
+      - ./:/app
+
+    command: tail -f /dev/null
